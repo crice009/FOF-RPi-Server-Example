@@ -1,4 +1,5 @@
 #hide-and-seek.py
+#requires LED soldered on to GPIO 23 & GND
 
 from gpiozero import LED
 from time import sleep
