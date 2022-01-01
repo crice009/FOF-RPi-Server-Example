@@ -1,0 +1,8 @@
+hello world!
+
+This is a file on another computer, and you've opened it.
+You're very likely looking at it through a super-simple text editor.
+
+
+Add your name here, for some digital graffiti:
+--- Corey was Here!
