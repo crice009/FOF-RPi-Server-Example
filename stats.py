@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2017 Tony DiCola for Adafruit Industries
 # SPDX-FileCopyrightText: 2017 James DeVito for Adafruit Industries
+# Modified: 2022 Corey Rice for MakeHaven "Foundations of Fabrication" course
 # SPDX-License-Identifier: MIT
 
 # This example is for use on (Linux) computers that are using CPython with
@@ -66,10 +67,10 @@ while True:
     IP = subprocess.check_output(cmd, shell=True).decode("utf-8")
 
     # Write four lines of text.
-    draw.text((x, top + 0), "IP: " + IP, font=font, fill=255)
-    draw.text((x, top + 8), "pi-pw: " + "dreams2make", font=font, fill=255)
-    draw.text((x, top + 16), "YEAH! You found me. :)", font=font, fill=255)
-    draw.text((x, top + 25), "sudo nano was-here.txt", font=font, fill=255)
+    draw.text((x, top + 0),  "WOW! You found me :-)",   font=font, fill=255)
+    draw.text((x, top + 8),  "ssh pi@:" + IP,           font=font, fill=255)
+    draw.text((x, top + 16), "pi-pw: " + "dreams2make", font=font, fill=255)
+    draw.text((x, top + 25), "sudo nano washere.txt",   font=font, fill=255)
 
     # Display image.
     disp.image(image)
