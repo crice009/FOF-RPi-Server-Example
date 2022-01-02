@@ -69,7 +69,7 @@ while True:
     # Write four lines of text.
     draw.text((x, top + 0),  "WOW! You found me :-)",   font=font, fill=255)
     draw.text((x, top + 8),  "ssh pi@:" + IP,           font=font, fill=255)
-    draw.text((x, top + 16), "pi-pw: " + "dreams2make", font=font, fill=255)
+    draw.text((x, top + 16), "pi-pw: " + "gleams2shake", font=font, fill=255) #not the real password on GitHub
     draw.text((x, top + 25), "sudo nano washere.txt",   font=font, fill=255)
 
     # Display image.
